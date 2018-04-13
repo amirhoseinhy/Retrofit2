@@ -10,7 +10,6 @@ public class Post {
     @SerializedName("title")
     private String title;
 
-
     public int getId() {
         return id;
     }
@@ -19,9 +18,6 @@ public class Post {
         this.id = id;
     }
 
-
-
-
     public String getTitle() {
         return title;
     }
@@ -29,4 +25,6 @@ public class Post {
     public void setTitle(String title) {
         this.title = title;
     }
+
+
 }
